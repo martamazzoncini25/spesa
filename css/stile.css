@@ -1,11 +1,42 @@
-body{
+.formattare{
 	
-   background-color:yellow;	
+    
+	 background:url("../image/cibo_spazzatura_cancro_salute.jpg") no-repeat  top scroll;
+     margin-left:50px;
+	margin-top:5rem; 
+     padding-top:1rem;
+	padding-bottom:1rem;
+	
 	
 }
+body{
+	background-color:rgba(0,204,255,0.5);
+}
 .struttura{
-	margin-top:250px;
-	margin-left:450px;
+  
+   
+  background:rgba(0,0,0,0.5);
+    padding:20px;
+	margin-top:150px;
+	margin-left:700px;
 	margin-right:250px;
 	margin-bottom:250px;
+   font-family: bold sans-serif;  
+}
+h3{
+	
+	color:black;
+	text-align: center;
+}
+h2{
+	color:rgba(0,204,255,1);
+	font-family:bold;
+	text-align: center;
+	
+}
+.colorelink{
+	
+	display: block;
+	color:yellow;
+    font-family:bold sans-serif;
 }

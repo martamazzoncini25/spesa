@@ -10,15 +10,16 @@
 	 <body>	
     <h3>FAI PURE LA SPESA</h3>
    <div class="formattare">
-	 <form class="struttura" action="home.php" method="post">
+	 <form class="struttura" action="accedi.php" method="post">
 		
-      <h2><span>Effettua la login</span></h2>
+      <h2><span>SCEGLI I PRODOTTI</span></h2>
 	 
-		<h2><span>NOME:</span></h2>
-		<input type="text" name="nome" style="width:120px;height:20px">
-	    
-     	<br>
-	    <input type="submit" name="Accedi" value="login" size="40">
+		    <ul class="link-list" class="colorelink">
+        <li><a class="list-item" href="#"><span>DETERSIVI</span></a></li>
+        <li><a class="list-item" href="#"><span>GASTRONOMIA</span></a></li>
+        <li><a class="list-item" href="#"><span>PESCHERIA</span></a></li>
+		<li><a class="list-item" href="#"><span>FORNERIA</span></a></li>
+      </ul>
 	
 		
 		</form>
