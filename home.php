@@ -14,7 +14,7 @@
 		
       <h2><span>SCEGLI I PRODOTTI</span></h2>
 	 
-		    <ul class="link-list" class="colorelink">
+		<ul class="colorelink">
         <li><a class="list-item" href="#"><span>DETERSIVI</span></a></li>
         <li><a class="list-item" href="#"><span>GASTRONOMIA</span></a></li>
         <li><a class="list-item" href="#"><span>PESCHERIA</span></a></li>

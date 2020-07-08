@@ -19,7 +19,7 @@
 	    
      	<br>
 	    <input type="submit" name="Accedi" value="login" size="40">
-	
+	    <p><a href="registrazione.php">Se non sei registrato clicca qui</br></a>
 		
 		</form>
 		</div>

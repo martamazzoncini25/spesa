@@ -34,9 +34,21 @@ h2{
 	text-align: center;
 	
 }
-.colorelink{
-	
-	display: block;
-	color:yellow;
-    font-family:bold sans-serif;
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color:rgba(0,204,255,1);
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }

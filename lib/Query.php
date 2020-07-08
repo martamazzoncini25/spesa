@@ -15,7 +15,7 @@
 				require_once 'DbManager_mysql.php';
 			}
 		}
-  	
+ 
 		public function Login($nome)
 		{
 			$s= "SELECT * FROM `utenti` WHERE nome = '$nome'"; 
@@ -42,6 +42,7 @@
 				
 				return false;
 			}
+		  else{
 			 $s="INSERT INTO `utenti`
                         (`nome`)
 	                     VALUES('$nome')";
@@ -51,8 +52,8 @@
 			$dbMan->Esegui($s);
 			
 			return true;
+		     }
 		}
-		
 		private function ControllaEmail($nome)
 		{
 			$s= "SELECT * FROM `utenti` WHERE nome= '$nome'"; 
@@ -70,7 +71,7 @@
 			
 			
 		}
-		
+	
 	}
 	
 	

@@ -88,7 +88,6 @@
 	}
 	
 	
-  echo("non è registrato");
 
 
 ?>
